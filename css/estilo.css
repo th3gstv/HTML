@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+.one{ /*class começa com ponto*/
+  background: black;
+  color: white;
+  border: none;
+  padding: 15px; /*Tamanho do botão*/
+  border-radius: 10px; /*Arredondamento do botão*/} 
+.two{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;}
+.three{
+  background: black;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;}
+#four{ /*id começa com hashtag*/
+  background: black;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;}
+.with{
+  font-size: 25px;
+  font-family: 'Comfortaa', sans-serif  ;
+  font-weight: bold; /*Negrito no CSS*/
+  color: blue;}
