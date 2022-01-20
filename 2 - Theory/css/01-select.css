@@ -1,0 +1,7 @@
+.s1{
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+.s1:hover{
+  cursor: pointer;
+}
