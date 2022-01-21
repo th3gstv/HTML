@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.Top{
+  padding: 10px 15px;
+  width: 98%;}
+.Top-Left{
+  padding: 10px 15px;
+  float: left;}
+.Icon-Left{
+  float: left;
+  margin-top: -3px;
+  cursor:pointer;}
+.Youtube-Icon{
+  width: 100%;
+  max-width: 80px;
+  margin-top: -3px;
+  margin-left: 25px;
+  cursor:pointer;}
+.search{
+  font-family: 'Roboto', Times, serif;
+  padding: 7px 10px;
+  width: 100%;
+  max-width: 600px;
+  margin-left: 140px;
+  outline-color: blue;
+  float: left;}
+.Icon-Search{
+  padding: 7.4px 18px;
+  float: left;
+  cursor:pointer;
+  color:grey;} 
