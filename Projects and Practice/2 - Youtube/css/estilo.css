@@ -1,31 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-.Top{
+.Inicial {
+  margin-top: -10px;
+}
+.Top {
   padding: 10px 15px;
-  width: 98%;}
-.Top-Left{
+  width: 98%;
+}
+.Top-Left {
   padding: 10px 15px;
-  float: left;}
-.Icon-Left{
   float: left;
-  margin-top: -3px;
-  cursor:pointer;}
-.Youtube-Icon{
+}
+.Icon-Left {
+  float: left;
+  margin-top: -2px;
+  margin-left: -10px;
+  cursor: pointer;
+}
+.Youtube-Icon {
   width: 100%;
-  max-width: 80px;
-  margin-top: -3px;
+  max-width: 85px;
+  margin-top: -2px;
   margin-left: 25px;
-  cursor:pointer;}
-.search{
-  font-family: 'Roboto', Times, serif;
-  padding: 7px 10px;
+  cursor: pointer;
+}
+.search {
+  float: left;
   width: 100%;
   max-width: 600px;
-  margin-left: 140px;
-  outline-color: blue;
-  float: left;}
-.Icon-Search{
-  padding: 7.4px 18px;
+  padding: 10px 2px;
+  margin-left: 120px;
+  outline-color: #4b79e4;
+}
+.Icon-Search {
+  padding: 9px 15px;
+  margin-top: 2px;
+  cursor: pointer;
   float: left;
-  cursor:pointer;
-  color:grey;} 
+}
+.Micro-Icon {
+  padding: 8px 6px;
+  font-size: 18px;
+  margin-left: 15px;
+  cursor: pointer;
+  outline: blue;
+}
+.Th-Icon {
+  padding: 8px 6px;
+  margin-left: 90px;
+  font-size: 18px;
+}
+.three-dots {
+  padding: 8px 6px;
+  margin-left: 15px;
+  font-size: 18px;
+}
+.Login {
+  font-family: 'Roboto', sans-serif;
+  padding: 8px 18px;
+  font-size: 15px;  
+  margin-top: 0px;
+  float: right;
+  color: blue;
+  outline: blue;
+  font-weight: bold;
+} 
+.Avatar {
+  color: blue;
+  font-size: 18px !important;
+}
