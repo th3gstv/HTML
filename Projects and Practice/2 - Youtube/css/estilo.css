@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  font-family: "Roboto", sans-serif;
+}
 .Inicial {
   margin-top: -10px;
 }
@@ -7,6 +10,7 @@
   width: 98%;
 }
 .Top-Left {
+  margin-left: -7px;
   padding: 10px 15px;
   float: left;
 }
@@ -46,25 +50,98 @@
 }
 .Th-Icon {
   padding: 8px 6px;
-  margin-left: 90px;
+  margin-left: 70px;
   font-size: 18px;
+  cursor: pointer;
 }
 .three-dots {
   padding: 8px 6px;
   margin-left: 15px;
   font-size: 18px;
+  cursor: pointer;
 }
 .Login {
   font-family: 'Roboto', sans-serif;
-  padding: 8px 18px;
+  margin-left: 20px;
+  padding: 8px 25px;
   font-size: 15px;  
   margin-top: 0px;
+  border: 1px solid blue;
   float: right;
   color: blue;
-  outline: blue;
   font-weight: bold;
+  outline: blue;
+  cursor: pointer;
 } 
 .Avatar {
   color: blue;
   font-size: 18px !important;
+}
+.Left-Side{
+  border: 1px solid gray;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 220px;
+  height: 1000px;
+}
+.Buttom-Home-Activate{
+  width: 200px;
+  padding: 10px;
+  color: black;
+  background-color: #E6E6E6;
+  font-weight: bold;
+  cursor: pointer;
+}
+.Buttom-Home-Activate:hover{
+  background-color: #D4D4D4;
+}
+.Icon-Home-Active{
+  color: red;
+  float: left;
+  margin-right: 15px;
+  cursor: pointer;
+  }
+.Explore{
+  width:200px;
+  padding:10px;
+  color: black;
+  cursor: pointer;
+}
+.Buttom-Compass:Hover{
+  background-color: #f8f8f8;
+}
+.Icon-Compass{
+  float:left;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.Explore{
+  width: 200px;
+  padding: 10px;
+  font-weight: bold;
+  color: gray;
+}
+.Explore:hover{
+  background-color: #D4D4D4;
+}
+.Left-Explore{
+  float: left;
+  margin-right: 15px;
+  color: red;
+}
+.Subscriptions{
+  width: 200px;
+  padding: 10px;
+  font-weight: bold;
+  color: gray;
+  cursor: pointer;
+}
+.Subscriptions:hover{
+  background-color:#D4D4D4;
+}
+.Left-Subscriptions{
+  float: left;
+  cursor: pointer;
+  margin-right: 15px;
+  color: red;
 }
