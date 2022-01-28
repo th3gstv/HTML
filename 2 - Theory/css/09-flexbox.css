@@ -6,10 +6,16 @@
 .All{
   display: flex;
   flex-direction: row;
-  background: #d4d4d  4;}
-.Item{  
+  justify-content: center;
+  align-items: center;
+  background: #d4d4d4;
+  height: 500px;} 
+.Item{
   color: white;
   padding: 15px;
   margin: 10px;
   background: blue;
-}
+  border-radius: 15px;}
+.title{
+  font-size: 35px;
+  color: blue;}
