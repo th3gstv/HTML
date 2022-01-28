@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Roboto', Times, serif;}
+.All{
+  display: flex;
+  flex-direction: row;
+  background: #d4d4d  4;}
+.Item{  
+  color: white;
+  padding: 15px;
+  margin: 10px;
+  background: blue;
+}
