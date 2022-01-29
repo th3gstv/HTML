@@ -435,10 +435,31 @@
   margin-top: -730px;
   float: right;
   cursor: pointer;}
-.Video{
-
-}
+.Videos{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -1200px;
+} 
 .Thumb{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
+  max-width: 265px;
+  height: 150px;
   cursor:pointer;
-}
+  padding: 3px;}
+.time{
+  padding: 5px 2px;
+  background: black;
+  color: white;
+  font-size: 10px;
+  justify-content: space-between;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;}
