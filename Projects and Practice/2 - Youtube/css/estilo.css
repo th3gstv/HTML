@@ -402,7 +402,7 @@
 .Banner {
   margin-top: -500px;
   width: 100%;
-  height: 400px;
+  height: 300px;
   background-image: url('../images/Banner.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -428,38 +428,66 @@
   color: blue;
   border-color: blue;
   background-color: white;
+  cursor: pointer;
 }
-.close-botton {
+.close-botton{
   font-size: 20px;
   color: gray;
   margin-top: -730px;
   float: right;
-  cursor: pointer;}
-.Videos{
+  cursor: pointer;
+}
+.Videos{  
   flex: 1;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
   margin-top: -1200px;
-} 
+  background: rgb(241, 241, 241);
+  height: 500px;
+  padding: 45px 30px;
+}
 .Thumb{
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   width: 100%;
-  max-width: 265px;
+  max-width: 300px;
   height: 150px;
   cursor:pointer;
-  padding: 3px;}
-.time{
-  padding: 5px 2px;
+}
+.Time{
+  font-size: 10px;
+  padding: 5px;
   background: black;
   color: white;
-  font-size: 10px;
-  justify-content: space-between;
-  margin-left: 5px;
-  display: flex;
-  flex-direction: row;
-  justify-content: right;}
+  margin-top: -25px;
+  margin-left: 195px;
+  position: absolute;
+  float: right;
+  border-radius: 3px;
+}
+.Video{
+  width: 100%;
+  max-width: 300px;
+  height: 250px;
+  float: left;
+  margin-right: 15px;
+}
+.icon-channel{
+  border-radius: 100%;
+  width: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.thumb-font{
+  font-weight: bold;
+  margin-top: -40px;
+  margin-left: 60px;
+  font-size: 14px;
+}
+.thumb-font2{
+  color: #646464;
+  font-size: 12px;
+  float: right;
+  margin-left: 60px;
+  margin-top: -10px;
+  text-align: left;
+  position: absolute;
+  font-weight: bold;
+}
