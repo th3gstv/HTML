@@ -1,0 +1,182 @@
+@font-face {
+  font-family: 'Airbnb-Light';
+  src: url('../fonts/AirbnbCerealLight.ttf');
+}
+@font-face {
+  font-family: 'Airbnb-Bold';
+  src: url('../fonts/AirbnbCerealBold.ttf');
+}
+* {
+  font-family: 'Airbnb-Light';
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: #000000;
+}
+.Top {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #000000;
+}
+.Main-menu {
+  flex: 1;
+  display: flex;
+}
+.Logo {
+  margin-left: 80px;
+  cursor: pointer;
+}
+.Menus {
+  flex: 1;
+  display: flex;
+  cursor: pointer;
+}
+.Items {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: white;
+}
+.Right-Menu {
+  display: flex;
+}
+.Hoster-Button {
+  font-family: 'Airbnb-Light';
+  cursor: pointer;
+  background: none;
+  border: transparent;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 110px;
+  padding: 12px 15px;
+  color: white;
+}
+.Hoster-Button:hover {
+  font-family: 'Airbnb-Light';
+  color: white;
+  background: #262626;
+  font-size: 14px;
+  border-radius: 30px;
+  padding: 12px 15px;
+}
+.Language-Icon {
+  font-family: 'Airbnb-Light';
+  cursor: pointer;
+  background: none;
+  border: transparent;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 12px 15px;
+  color: white;
+}
+.Language-Icon:hover {
+  font-family: 'Airbnb-Light';
+  color: white;
+  background: #262626;
+  font-size: 14px;
+  border-radius: 30px;
+  padding: 12px 15px;
+}
+.Last-Menu{
+  display: flex;
+  flex-direction: row;
+}
+.Double-Button {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: 0;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 25px;
+  background: #FFFFFF;
+  color: #595959;
+}
+.Login-Icon{
+  font-size: 28px;
+}
+.Bars{
+  font-size: 15px;
+  margin-right: 10px;
+}
+.Searches{
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.To-Search{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  height: 90%;
+  width: 65%;
+  border-radius: 40px;
+  background: white;
+}
+.Item-Search1{
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 30px;
+}
+.Item-Search2-3{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.Item-Search4{
+  flex: 1.3;
+  display: flex;
+  flex-direction: column;
+}
+.Title-Search{
+  display: flex;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Airbnb-Bold";
+}
+.Subtitle-Search{
+  display: flex;
+  font-size: 14px;
+  color: gray;
+}
+.Separator1{
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 30px;  
+  width: 1px;
+  background: RGB(197,197,197);
+  margin-left: 220px;
+}
+.Separator2-3{
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 30px;  
+  width: 1px;
+  background: RGB(197,197,197);
+  margin-left: 140px;
+}
+.Icon-Search{
+  display: flex;
+  color: white;
+  background-color: orangered;
+  padding: 15px;
+  border-radius: 100%;
+  font-size: 20px;
+  margin-right: 10px;
+}

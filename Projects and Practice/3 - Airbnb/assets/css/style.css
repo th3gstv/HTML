@@ -1,12 +1,16 @@
 @font-face {
-  font-family: "Airbnb-Light";
-  src: url("../fonts/AirbnbCerealLight.ttf");
+  font-family: 'Airbnb-Light';
+  src: url('../fonts/AirbnbCerealLight.ttf');
 }
-body{
+@font-face {
+  font-family: 'Airbnb-Bold';
+  src: url('../fonts/AirbnbCerealBold.ttf');
+}
+body {
   padding: 0px;
   margin: 0px;
 }
-.Top{
+.Top {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -14,43 +18,65 @@ body{
   height: 55px;
   background: #222222;
 }
-.Top-Text{
+.Top-Text {
   color: #b3b3b3;
   cursor: pointer;
   text-decoration: underline;
-  font-family: "Airbnb-Light";
+  font-family: 'Airbnb-Light';
   font-size: 14px;
 }
-.Top-Text:hover{
-  color: #D4D4D4;
+.Top-Text:hover {
+  color: #d4d4d4;
 }
-.Wallpaper{
+.Wallpaper {
   background-image: url('../images/background.png');
   height: 750px;
-  background-repeat: no-repeat; /*Após o fim, a imagem não irá se repetir*/ 
+  background-repeat: no-repeat; /*Após o fim, a imagem não irá se repetir*/
   background-size: cover;
-  background-position: bottom; /* Serve para mostrar o fim da imagem*/ 
+  background-position: bottom; /* Serve para mostrar o fim da imagem*/
 }
-.Menu{
+.Menu {
   display: flex;
   flex-direction: row;
   align-items: center;
   height: 80px;
 }
-.Menu-Flex{
+.Menu-Flex {
   flex: 1;
 }
-.Menus{
+.Menus {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.Item-Menu{
-  font-family: "Airbnb-Light";
+.Item-Menu {
+  font-family: 'Airbnb-Light';
   font-weight: 500;
   font-size: 17px;
+  cursor: pointer;
 }
-.Logo{
-  margin-left: 80px;}
-.Menu-Right{
+.Logo {
+  margin-left: 80px;
+}
+.Menu-Button-Right{
+  background: transparent;
+  font-family: "Airbnb-Bold";
+  color: #222222;
+  flex: 1;
+  float: right;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  padding: 12px 15px;
+  margin-right: 10px;
+  border-radius: 20px;
+  font-size: 17px;
+}
+.Menu-Button-Right:hover{
+  background: #F7F7F7;
+  font-family: "Airbnb-Bold";
+  font-size: 17px;
+
 }
